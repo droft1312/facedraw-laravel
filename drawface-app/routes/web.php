@@ -11,8 +11,4 @@
 |
 */
 
-//Route::get('/', function () {
-  //  return view('greeting', ['name' => 'James']);
-
-    Route::get('user/{id}', 'UserController@show');
-//});
+Route::get('/', 'PagesController@index');
